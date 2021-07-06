@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Lato,sans-serif;
+}
+header{
+    background-image: url('../img/bg.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    width: 120px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.menu{
+    float: right;
+    list-style-type:none;
+}
+
+.menu li{
+    display:inline-block;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:10px;
+    color:#fff;
+    border-radius: 5px;
+    font-weight: bold;
+    border:none;
+    transition:all ease 0.3s;
+}
+
+.menu li a:hover{
+    background-color: #fff;
+    color:rgba(21,54,129)
+}
+.text{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+h1{
+    color:#fff;
+    font-size:55px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+}
+
+h2{
+    color:#fff;
+    letter-spacing:1px;
+    text-align: center;
+}
+
+.buttons{
+    position: absolute;
+    left:50%;
+    top:70%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    text-decoration: none;
+    padding:10px 20px;
+    margin-left:15px;
+    background-color: #fff;
+    border-radius: 10px;
+    color:rgba(21,54,129);
+    font-weight:bold;
+    border:none;
+    transition:all ease 0.3s;
+}
+.btn:hover{
+    background-color: rgba(21,54,129);
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
